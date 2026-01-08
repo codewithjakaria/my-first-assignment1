@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+font.inter {
+  font-family: 'Inter', sans-serif;
+  font-optical-sizing: auto;
+}
+/* Navbar All Items*/
+header .navbar {
+  display: flex;
+  max-width: 1600px;
+  justify-content: space-between;
+}
+.navbar .navbar-logo {
+  max-width: 140px;
+  padding: 16px 0px 16px 120px;
+}
+header .navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 32px;
+  margin: 0 auto;
+  padding: 34px 346px;
+}
+
+header .navbar ul a {
+  text-decoration: none;
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+
+header .navbar ul li {
+  font-size: 16px;
+  color: black;
+  font-weight: 500;
+}
+
+.navbar .btn {
+  margin: 24px 110px 24px 16px;
+  max-width: 164px;
+  padding: 12px 16px 12px 16px;
+  background-color: #469165;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
