@@ -50,3 +50,93 @@ header .navbar ul li {
   font-weight: 600;
   cursor: pointer;
 }
+
+/* Early Access no open*/
+.badge-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.badge {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 115px;
+  background: white;
+  padding: 6px 16px;
+  border-radius: 20px;
+}
+
+.badge p {
+  color: green;
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+  font-weight: 500;
+}
+
+.green-dot {
+  width: 8px;
+  height: 8px;
+  background-color: #30b868;
+  border-radius: 50%;
+  display: inline-block;
+}
+#hero {
+  background-image: url('assets/hero-bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 100px 20px;
+  text-align: center;
+  color: white;
+}
+
+#hero .hero-heading h1 {
+  max-width: 720px;
+  font-size: 72px;
+  margin: 20px auto;
+  font-weight: 700;
+}
+
+#hero .hero-heading h1 span {
+  color: #30b868;
+}
+
+#hero .hero-heading p {
+  max-width: 600px;
+  font-size: 18px;
+  margin: 0 auto 30px;
+}
+
+#section-button {
+  margin: 0 auto;
+  text-align: center;
+}
+
+#section-button .button-container {
+  display: flex;
+  gap: 20px;
+  margin-top: 50px;
+  justify-content: center;
+}
+#section-button .button-container .btn1 {
+  background-color: #30b868;
+  display: flex;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+}
+#section-button .button-container .btn2 button {
+  background: none;
+  border: 1px solid white;
+  padding: 15px;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 600;
+  color: white;
+}
