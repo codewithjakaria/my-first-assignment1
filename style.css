@@ -3,11 +3,11 @@
   margin: 0;
 }
 
-font.inter {
+/*.font-inter {
   font-family: 'Inter', sans-serif;
   font-optical-sizing: auto;
-}
-/* Navbar All Items*/
+}*/
+
 header .navbar {
   display: flex;
   max-width: 1600px;
@@ -51,7 +51,6 @@ header .navbar ul li {
   cursor: pointer;
 }
 
-/* Early Access no open*/
 .badge-container {
   display: flex;
   justify-content: center;
@@ -234,4 +233,47 @@ header .navbar ul li {
 .banner-heading ul li img {
   width: 20px;
   height: 20px;
+}
+
+#banner2 {
+  max-width: 1600px;
+}
+
+#banner2 .banner2-container {
+  margin: 0 120px 120px 120px;
+  padding: 80px 40px;
+  background: rgba(247, 246, 242, 1);
+  text-align: center;
+}
+
+#banner2 .banner2-container h1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+#banner2 .banner2-container p {
+  font-size: 16px;
+  line-height: 20px;
+  color: #627382;
+}
+
+#banner2 .banner2-container .banner2-heading .button2-button {
+  max-width: 200px;
+  height: 52px;
+  background-color: #469165;
+  margin: 0 auto;
+  justify-content: center;
+  margin-top: 26px;
+  text-align: center;
+  align-items: center;
+  display: inline-flex;
+  gap: 6px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+  cursor: pointer;
 }
